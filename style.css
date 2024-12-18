@@ -76,7 +76,6 @@ sidebar {
 
 floater {
     opacity: 0;
-    visibility: hidden;
     position: fixed;
     bottom: 0px;
     left: 0px;

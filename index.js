@@ -24,6 +24,14 @@ document.addEventListener("DOMContentLoaded", function () {
         else {
             sidebar.style.top = `20px`;
         }
+
+        const floater = document.getElementsByTagName("floater")[0];
+        if (window.scrollY > 100) {
+            floater.style.opacity = "1";
+        }
+        else {
+            floater.style.opacity = "0";
+        }
     });
 
     var f = document.getElementById('blink-cursor');
