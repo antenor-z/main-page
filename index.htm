@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body lang="pt">
+    <header>
+        <h1>Antenor Barros</h1>
+        <h2 lang="en">Computer Engineer<span id="blink-cursor">_</span></h2>
+        <h2 lang="pt">Engenheiro de Computação<span id="blink-cursor">_</span></h2>
+    </header>
+
+    <floater>
+        <div>
+            <span>Antenor Barros |</span>
+            <button onclick="window.scrollTo({top: 0, behavior: 'smooth'});" class="button-big">▲</button>
+        </div>
+    </floater>
+
+    <sidebar>
+        <a href="https://github.com/antenor-z/" target="_blank" rel="noreferrer">
+            <button class="button-sidebar">
+                <img src="img/github-mark-white.svg">
+                GitHub
+            </button>
+        </a>
+        <a href="https://www.linkedin.com/in/antenor-barros-1365bb334/" target="_blank" rel="noreferrer">
+            <button class="button-sidebar">
+                <img src="img/LI-In-Bug.png">
+                LinkedIn
+            </button>
+        </a>
+        <a href="https://www.linkedin.com/in/antenor-barros-1365bb334/" target="_blank" rel="noreferrer">
+            <button class="button-sidebar">
+                <img src="img/cnpq-logo.png">
+                Lattes
+            </button>
+        </a>
+
+        <a href="mailto:contato@a4barros.com" target="_blank" rel="noreferrer">
+            <button class="button-sidebar" onclick="window.open('','_blank')" style="margin-bottom: 20px;">
+                <img src="img/email.svg">
+                Contato
+            </button>
+        </a>
+        
+        <button class="button-sidebar language-change">
+            <img lang="en" src="img/pt.svg">
+            <img lang="pt" src="img/en.svg">
+            <span lang="en">Português</span>
+            <span lang="pt">English</span>
+        </button>
+    </sidebar>
+
+    <content>
+	<h3 lang="en">Education</h3>
+    <h3 lang="pt">Formação</h3>
+
+        
+	<div class="box">
+        <div class="box-title" lang="en">Bachelor in Computer Engineering</div>
+        <div class="box-title" lang="pt">Bacharel em Engenharia de Computação</div>
+        <div class="box-contents">
+            <div class="box-content" lang="en">PUC-Rio (Jan 2020 - Dec 2024)</div>
+            <div class="box-content" lang="pt">PUC-Rio (Jan 2020 - Dez 2024)</div>
+        </div>
+    </div>
+
+    <h3 lang="en">Work</h3>
+    <h3 lang="pt">Trabalho</h3>
+
+	<div class="box">
+        <div class="box-title">Oceanpact S.A.</div>
+            <div class="box-contents">
+                <div class="box-content">Backend and devops engineer (Sep 2023 - present)</div>
+		        <button class="accordion-toggle">More Info</button>
+                <div class="more-info">
+                    At Oceanpact I work at the inovation team building the backend
+                    for a B2B web application used by companies of the oil and
+                    gas sector. This application monitors these companies flet,
+                    can simulate an oil spill incident, show on a map the weather
+                    forecast at sea (wind, sea surface temperatura, currents and
+                    others) to help reduce the climate threat and gain operational
+                    efficiency.
+                </div>
+            </div>
+        </div>
+    </div>
+	
+	<div class="box">
+        <div class="box-title">ExACTa PUC-Rio · Intership </div>
+        <div class="box-contents">
+            <div class="box-content">Backend engineer (Aug 2022 - Aug 2023)</div>
+            <button class="accordion-toggle">More Info</button>
+            <div class="more-info">
+                My intership was in a research and development project led by 
+                ExACTa and Americanas S.A. Me and my team created a web application 
+                that aimed to facilitate customer interaction with the company's 
+                e-commerce (americanas.com) and improve the quality of the ads 
+                displayed at it. We also created a mobile application to help 
+                store managers with their daily routines by showing them which 
+                products are selling less than expected.
+            </div>
+        </div>
+    </div>
+
+
+	<h3 lang="en">Skills</h3>
+    <h3 lang="pt">Habilidades</h3>
+
+	<div class="box">
+        <div lang="en" class="box-title">Programming Languages</div>
+        <div lang="pt" class="box-title">Linguagens de Programação</div>
+        <div class="box-contents">
+            <ul>
+                <li>Python</li>
+                <li>Javascript</li>
+                <li>C#</li>
+                <li>C/C++</li>
+                <li>Bash Script</li>
+                <li>PHP</li>
+            </ul>
+        </div>
+    </div>
+        
+	<div class="box">
+        <div class="box-title">Web Frameworks</div>
+        <div class="box-contents">
+            <ul>
+                <li>FastAPI</li>
+                <li>Flask</li>
+                <li>Laravel</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="box">
+        <div lang="en" class="box-title">Others</div>
+        <div lang="pt" class="box-title">Outros</div>
+        <div class="box-contents">
+            <ul>
+                <li>HTML/CSS</li>
+                <li>Docker / Docker Compose</li>
+                <li>Linux</li>
+                <li>Azure Cloud</li>
+                <li>Oracle Cloud Infrastructure</li>
+                <li>SQL</li>
+            </ul>
+        </div>
+    </div>
+        
+	<div class="box">
+        <div lang="en" class="box-title">Human Languages</div>
+        <div lang="pt" class="box-title">Línguas</div>
+        <div class="box-contents">
+            <ul>
+                <li lang="en">Portuguese (fluent)</li>
+                <li lang="pt">Português (fluente)</li>
+                <li lang="en">English (advanced)</li>
+                <li lang="pt">Inglês (avançado)</li>
+            </ul>
+        </div>
+    </div>
+
+    <h3>Projects</h3>
+	<div class="box">
+	    <div class="box-title">Aero (<a href="https://aero.a4barros.com">aero.a4barros.com</a>)</div>
+            <div class="box-contents">
+	    	<div class="box-content">Aeronautical information</div>
+            <button class="accordion-toggle">More Info</button>
+            <div class="more-info">
+                The backend uses FastAPI. The data is fetch from an API and saved
+                on a SQL database. To improve the page load time a Redis cache is
+                used.
+            </div>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="box-title">CONV (<a href="https://conv.a4barros.com">conv.a4barros.com</a>)</div>
+            <div class="box-contents">
+	    	<div class="box-content">A quick and dirty unit conversion tool.</div>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="box-title">AXIA (<a href="https://github.com/antenor-z/axia">Check the repo</a>)</div>
+            <div class="box-contents">
+	    	<div class="box-content">
+                A remote file server that can be accesed on the web. Think something
+                like Google Drive, but self-hosted. <s>and much more insecure</s>
+            </div>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="box-title">TODO (<a href="https://github.com/antenor-z/todo">Check the repo</a>)</div>
+            <div class="box-contents">
+	    	<div class="box-content">
+                A simple todo list that I use for my daily tasks. Is writen in Flask
+                and uses SQLite as the database. Very simple.
+            </div>
+        </div>
+    </div>
+
+    </content>
+    <script src="index.js"></script>
+    <script src="languageChange.js"></script>
+</body>
+</html>
+
