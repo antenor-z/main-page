@@ -34,9 +34,13 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     });
 
-    var f = document.getElementById('blink-cursor');
-    setInterval(function() {
-        f.style.opacity = (f.style.opacity == '1' ? '0' : '1');
-    }, 600);
+    const cursors = document.querySelectorAll(".blink-cursor");
+    cursors.forEach(
+        cursor => {
+            setInterval(function() {
+                cursor.style.opacity = (cursor.style.opacity == '1' ? '0' : '1');
+            }, 600);
+        }
+    )
 });
 
