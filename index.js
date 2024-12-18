@@ -4,13 +4,13 @@ document.addEventListener("DOMContentLoaded", function () {
     toggles.forEach(toggle => {
         toggle.addEventListener("click", function () {
             const moreInfo = this.nextElementSibling;
-
+            const lang = document.getElementsByTagName("body")[0].lang;
             if (moreInfo.style.display === "none" || moreInfo.style.display === "") {
                 moreInfo.style.display = "block";
-                this.textContent = "Less Info";
+                this.textContent = "▲"
             } else {
                 moreInfo.style.display = "none";
-                this.textContent = "More Info";
+                this.textContent = "▼"
             }
         });
     });
