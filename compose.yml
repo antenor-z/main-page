@@ -1,0 +1,10 @@
+services:
+  conv:
+    restart: unless-stopped
+    build: .
+    networks:
+      - net
+
+networks:
+  net:
+    external: true

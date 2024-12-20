@@ -8,7 +8,7 @@
    id="_x32_"
    viewBox="0 0 320 320"
    xml:space="preserve"
-   sodipodi:docname="pt.svg"
+   sodipodi:docname="en.svg"
    inkscape:version="1.4 (86a8ad7, 2024-10-11)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -38,14 +38,8 @@
 	.st0{fill:#000000;}
 </style>
 
-<text
-   xml:space="preserve"
-   style="font-size:170.667px;line-height:1;font-family:Arial;-inkscape-font-specification:Arial;text-align:start;letter-spacing:0.64px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#ffffff;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linecap:square;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;paint-order:stroke fill markers"
-   x="45.846443"
-   y="218.70845"
-   id="text1"><tspan
-     sodipodi:role="line"
-     id="tspan1"
-     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:170.667px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold';fill:#ffffff;fill-opacity:1;stroke-width:0;stroke-dasharray:none;stroke-dashoffset:0"
-     x="45.846443"
-     y="218.70845">PT</tspan></text></svg>
+<path
+   style="font-weight:bold;font-size:170.667px;line-height:1;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold';letter-spacing:0.64px;fill:#ffffff;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linecap:square;stroke-linejoin:round;paint-order:stroke fill markers"
+   d="m 52.596453,218.70845 v -117.4169 h 92.333517 v 19.00004 H 77.179836 v 29.50006 h 62.666794 v 19.00003 H 77.179836 v 30.91673 h 71.166804 v 19.00004 z m 185.973697,0 -51.16677,-90.41685 q 1.50001,13.1667 1.50001,21.16671 v 69.25014 h -21.83338 v -117.4169 h 28.08339 l 51.91677,91.16685 q -1.5,-12.58336 -1.5,-22.91671 v -68.25014 h 21.83337 v 117.4169 z"
+   id="text1"
+   aria-label="EN" /></svg>
