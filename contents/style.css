@@ -124,6 +124,9 @@ h3 {
     border-radius: 8px;
     margin-bottom: 20px;
     padding: 15px;
+    ul li i {
+        color: #888;
+    }
 }
 
 .box-title {
