@@ -1,5 +1,5 @@
 services:
-  conv:
+  main-page:
     restart: unless-stopped
     build: .
     networks:
