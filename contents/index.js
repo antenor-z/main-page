@@ -16,8 +16,13 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     document.addEventListener("scroll", (event) => {
+        sidebarPosition();
+    });
+
+    sidebarPosition();
+    function sidebarPosition() {
         const sidebar = document.getElementsByTagName("sidebar")[0];
-        const pos = 170 - window.scrollY;
+        const pos = 200 - window.scrollY;
         if (pos > 20) {
             sidebar.style.top = `${pos}px`;
         }
@@ -32,7 +37,7 @@ document.addEventListener("DOMContentLoaded", function () {
         else {
             floater.style.opacity = "0";
         }
-    });
+    }
 
     const cursors = document.querySelectorAll(".blink-cursor");
     cursors.forEach(
