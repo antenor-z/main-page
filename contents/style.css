@@ -82,6 +82,9 @@ sidebar {
     floater {
         display: none;
     }
+    body {
+    	padding-bottom: 0px;
+    }
 }
 
 floater {
