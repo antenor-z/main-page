@@ -21,6 +21,7 @@ header {
     background-color: #1e1e1e;
     background-image: url('img/noise-30.gif');
     background-attachment: fixed;
+    background-size: calc(25vw);
     padding: 20px 0 40px 0;
     text-align: center;
     border-bottom: 2px solid var(--primary-color);
