@@ -19,13 +19,14 @@ body {
 
 header {
     background-color: #1e1e1e;
-    background-image: url('img/noise-30.gif');
+    background: 
+        linear-gradient(180deg, #1e1e1e00 80px, var(--primary-color-transparent) 180px),
+        url('img/noise.png');
     background-attachment: fixed;
-    background-size: calc(25vw);
+    background-size: 138px;
     padding: 20px 0 40px 0;
     text-align: center;
     border-bottom: 2px solid var(--primary-color);
-    box-shadow: 0px -20px 50px var(--primary-color-transparent) inset;
     min-height: 120px;
     transition: border-bottom-color 0.7s ease, box-shadow 0.7s ease;
 }
