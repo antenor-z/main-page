@@ -1,6 +1,6 @@
-document.addEventListener("DOMContentLoaded", function () {
+window.addEventListener("load", (event) => {
     const loader = document.getElementById("loader");
     loader.style.transition = "opacity 0.7s ease";
-    loader.style.opacity = "0";
-    setTimeout(() => loader.remove(), 1500);
+    setTimeout(() => loader.style.opacity = "0", 1000);
+    setTimeout(() => loader.remove(), 3000);
 });

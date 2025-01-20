@@ -137,6 +137,7 @@ h3 {
 
 .box {
     background-color: #1e1e1e;
+    box-shadow: inset -3px 1px 10px #00000021;
     border: 1px solid #333;
     border-radius: 8px;
     margin-bottom: 20px;
