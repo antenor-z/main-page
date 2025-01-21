@@ -10,6 +10,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
     updateColors();
 
-    setInterval(updateColors, 1000);
+    setInterval(updateColors, 60000);
 });
 
