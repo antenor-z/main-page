@@ -28,7 +28,6 @@ header {
     text-align: center;
     border-bottom: 2px solid var(--primary-color);
     min-height: 120px;
-    transition: border-bottom-color 0.7s ease, box-shadow 0.7s ease;
 }
 
 
