@@ -241,3 +241,11 @@ body:lang(pt) *:not(:lang(pt))
 {
     display: none;
 }
+.blink-cursor, .blink-cursor-title{
+    animation: blink 700ms step-end infinite;
+    opacity: 1;
+}
+
+@keyframes blink {
+    50% { opacity: 0; }
+}
