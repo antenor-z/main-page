@@ -136,13 +136,13 @@ h3 {
 
 .box {
     background-color: #1e1e1e;
-    box-shadow: inset -3px 1px 10px #00000021;
+    box-shadow: inset -3px 3px 10px #00000021;
     border: 1px solid #333;
     border-radius: 8px;
     margin-bottom: 20px;
     padding: 15px;
     ul li i {
-        color: #888;
+        color: #777;
     }
 }
 
@@ -163,7 +163,18 @@ h3 {
     font-size: 1em;
     color: #cfcfcf;
     i {
-        color: #888;
+        color: #777;
+    }
+}
+@media screen and (min-width: 1000px) {
+    .box-content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .line i {
+            transform: translate(0px, -50px);
+            display: block;
+        }
     }
 }
 
@@ -250,4 +261,8 @@ body:lang(pt) *:not(:lang(pt))
 
 @keyframes blink {
     50% { opacity: 0; }
+}
+
+span.line {
+    display: inline-block;
 }

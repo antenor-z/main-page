@@ -10,10 +10,26 @@ function subtractDate(date1, date2, language) {
     const years = Math.floor(monthDifference / 12);
     const months = monthDifference % 12;
 
-    if (language === "pt") {
-        return `${years} ano${years !== 1 ? 's' : ''} ${months} mes${months !== 1 ? 'es' : ''}`;
+    if (language === "en") {
+        let result = "";
+        if (years > 0) {
+            result += `${years} year${years !== 1 ? 's' : ''}`;
+        }
+        if (months > 0) {
+            if (result) result += " ";
+            result += `${months} month${months !== 1 ? 's' : ''}`;
+        }
+        return result;
     } else {
-        return `${years} year${years !== 1 ? 's' : ''} ${months} month${months !== 1 ? 's' : ''}`;
+        let result = "";
+        if (years > 0) {
+            result += `${years} ano${years !== 1 ? 's' : ''}`;
+        }
+        if (months > 0) {
+            if (result) result += " ";
+            result += `${months} mes${months !== 1 ? 'es' : ''}`;
+        }
+        return result;
     }
 }
 
