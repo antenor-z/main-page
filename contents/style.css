@@ -165,16 +165,21 @@ h3 {
     i {
         color: #777;
     }
+    .line .date {
+        color: #777;
+    }
 }
 @media screen and (min-width: 1000px) {
     .box-content {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        .line i {
+        .line .date {
             transform: translate(0px, -50px);
             display: block;
         }
+    }
+    .box-content-flex {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
     }
 }
 
