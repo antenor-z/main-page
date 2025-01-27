@@ -27,9 +27,9 @@
      inkscape:deskcolor="#505050"
      inkscape:document-units="px"
      showguides="true"
-     inkscape:zoom="0.70710682"
-     inkscape:cx="-57.982753"
-     inkscape:cy="44.547725"
+     inkscape:zoom="1"
+     inkscape:cx="-93.999996"
+     inkscape:cy="141.49999"
      inkscape:window-width="2560"
      inkscape:window-height="1009"
      inkscape:window-x="-8"
@@ -185,10 +185,10 @@
      id="layer1"><text
        xml:space="preserve"
        id="text4"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:48px;font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS';white-space:pre;shape-inside:url(#rect4);fill:#ba5959;fill-opacity:1" /><text
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:48px;font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS';white-space:pre;shape-inside:url(#rect4);display:inline;fill:#ba5959;fill-opacity:1" /><text
        xml:space="preserve"
        id="text8"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.6667px;line-height:1.1;font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS';white-space:pre;shape-inside:url(#rect8);fill:#7e3434;fill-opacity:1" /><text
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.6667px;line-height:1.1;font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS';white-space:pre;shape-inside:url(#rect8);display:inline;fill:#7e3434;fill-opacity:1" /><text
        xml:space="preserve"
        style="font-weight:600;font-size:138.202px;line-height:1.1;font-family:REM;-inkscape-font-specification:'REM Semi-Bold';fill:none;fill-opacity:1;stroke:#ba5959;stroke-width:5.92824"
        x="376.75308"
@@ -204,7 +204,7 @@
          id="g3"
          transform="translate(2.9999999,3.7499999)"><g
            id="g4"
-           transform="matrix(1.1596549,0,0,1.170065,-7.4088062,-12.24806)"><path
+           transform="matrix(1.002883,0,0,1.0057619,33.561903,10.012546)"><path
              style="font-weight:600;font-size:138.202px;line-height:1.1;font-family:REM;-inkscape-font-specification:'REM Semi-Bold';fill:#282c49;fill-opacity:1;stroke:none;stroke-width:5.92824;stroke-opacity:1;filter:url(#filter79)"
              d="m 161.50141,-54.768692 36.89993,-96.741398 h 24.59996 l 37.17633,96.741398 H 236.9597 l -26.12018,-74.214468 h -0.41461 l -26.67298,74.214468 z m 25.56737,-17.689855 v -17.689856 h 46.98868 v 17.689856 z"
              id="text3-1-6"
